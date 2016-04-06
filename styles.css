@@ -1,0 +1,40 @@
+body {
+    font-family:arial;
+    font-size:12px;
+    }
+ 
+.clear {
+    clear:both;
+    }
+ 
+#nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+ 
+#nav li {
+    float:left;
+    display:block;
+    background:darkcyan;
+    position:relative;
+    min-width: 200px;
+    min-height: 50px;
+    z-index:500;
+    margin:0 1px;
+    }
+ 
+#nav li a {
+    display:block;
+    padding:6px 5px 0 5px;
+    min-width: 200px;
+    min-height: 50px;
+    text-decoration:none;
+    color: white;
+    text-align:center;
+    }
+
+#nav a:hover {
+    text-decoration:none;
+    background:rgb (0,139,139,.25);
+        }
